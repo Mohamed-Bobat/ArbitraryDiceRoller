@@ -18,25 +18,32 @@ namespace ArbitraryDiceRoller
         }
 
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Roll_Click(object sender, EventArgs e)
         {
             
-            int n,d,m;
-            if(int.TryParse(Number.Text, out n) && int.TryParse(Size.Text, out d) && int.TryParse(Mod.Text, out m))
+            int n,d,m,dc;
+            Boolean b = int.TryParse(Number.Text, out n) & int.TryParse(Size.Text, out d) & int.TryParse(Mod.Text, out m);
+            if (b)
             {
-                int[] results =new int[n];
-                foreach (int roll in results){
+                Random dice = new Random();
+              
+                for (int i=0; i<n;i++){
+                    int result = dice.Next(1,d);
+                        
+                            ResultList.Items.Add(result + "+" + m + ":" + (result + m));
+                        
 
+                    }
                 }
-                Console.WriteLine(n + " " + d + " " + m);
             }
-
-
-
             
+
+
+
+
 
         }
 
       
-    }
 }
+
