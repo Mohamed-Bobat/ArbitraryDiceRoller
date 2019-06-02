@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.Size = new System.Windows.Forms.MaskedTextBox();
             this.Mod = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -175,6 +176,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Mod);
             this.Controls.Add(this.Size);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Main";
             this.Text = "Arbitrary Dice Roller";
             this.ResumeLayout(false);
