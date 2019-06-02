@@ -4,7 +4,9 @@ A program which simulates rolling as many arbitrary sided dice as you want! With
 No Dependencies
 ## Installation
 1.) Download the Release
+
 2.) Unzip the file
+
 3.) Run the Executable file
 ## License
 This project is licensed under the MIT License - see the [LICENSE][LICENSE] file for details
