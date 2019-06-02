@@ -49,6 +49,7 @@
             this.Size.Name = "Size";
             this.Size.Size = new System.Drawing.Size(55, 40);
             this.Size.TabIndex = 1;
+            this.Size.Text = "20";
             // 
             // Mod
             // 
@@ -57,6 +58,7 @@
             this.Mod.Name = "Mod";
             this.Mod.Size = new System.Drawing.Size(55, 40);
             this.Mod.TabIndex = 2;
+            this.Mod.Text = "0";
             // 
             // label1
             // 
@@ -90,10 +92,13 @@
             // 
             // ResultList
             // 
+            this.ResultList.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ResultList.FormattingEnabled = true;
+            this.ResultList.HorizontalScrollbar = true;
+            this.ResultList.ItemHeight = 25;
             this.ResultList.Location = new System.Drawing.Point(28, 187);
             this.ResultList.Name = "ResultList";
-            this.ResultList.Size = new System.Drawing.Size(304, 251);
+            this.ResultList.Size = new System.Drawing.Size(304, 229);
             this.ResultList.TabIndex = 6;
             // 
             // label3
@@ -112,6 +117,7 @@
             this.DCValue.Name = "DCValue";
             this.DCValue.Size = new System.Drawing.Size(48, 20);
             this.DCValue.TabIndex = 11;
+            this.DCValue.Text = "0";
             // 
             // Number
             // 
@@ -120,6 +126,7 @@
             this.Number.Name = "Number";
             this.Number.Size = new System.Drawing.Size(55, 40);
             this.Number.TabIndex = 12;
+            this.Number.Text = "1";
             // 
             // DC
             // 
