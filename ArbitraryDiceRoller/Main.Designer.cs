@@ -35,11 +35,11 @@
             this.Roll = new System.Windows.Forms.Button();
             this.ResultList = new System.Windows.Forms.ListBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.Sum = new System.Windows.Forms.RadioButton();
-            this.DC = new System.Windows.Forms.RadioButton();
-            this.Exploding = new System.Windows.Forms.RadioButton();
             this.DCValue = new System.Windows.Forms.TextBox();
             this.Number = new System.Windows.Forms.MaskedTextBox();
+            this.DC = new System.Windows.Forms.CheckBox();
+            this.Exploding = new System.Windows.Forms.CheckBox();
+            this.Sum = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // Size
@@ -106,39 +106,6 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Arbitrary Dice Roller";
             // 
-            // Sum
-            // 
-            this.Sum.AutoSize = true;
-            this.Sum.Location = new System.Drawing.Point(28, 134);
-            this.Sum.Name = "Sum";
-            this.Sum.Size = new System.Drawing.Size(46, 17);
-            this.Sum.TabIndex = 8;
-            this.Sum.TabStop = true;
-            this.Sum.Text = "Sum";
-            this.Sum.UseVisualStyleBackColor = true;
-            // 
-            // DC
-            // 
-            this.DC.AutoSize = true;
-            this.DC.Location = new System.Drawing.Point(133, 134);
-            this.DC.Name = "DC";
-            this.DC.Size = new System.Drawing.Size(40, 17);
-            this.DC.TabIndex = 9;
-            this.DC.TabStop = true;
-            this.DC.Text = "DC";
-            this.DC.UseVisualStyleBackColor = true;
-            // 
-            // Exploding
-            // 
-            this.Exploding.AutoSize = true;
-            this.Exploding.Location = new System.Drawing.Point(247, 134);
-            this.Exploding.Name = "Exploding";
-            this.Exploding.Size = new System.Drawing.Size(96, 17);
-            this.Exploding.TabIndex = 10;
-            this.Exploding.TabStop = true;
-            this.Exploding.Text = "Exploding Dice";
-            this.Exploding.UseVisualStyleBackColor = true;
-            // 
             // DCValue
             // 
             this.DCValue.Location = new System.Drawing.Point(179, 131);
@@ -154,16 +121,46 @@
             this.Number.Size = new System.Drawing.Size(55, 40);
             this.Number.TabIndex = 12;
             // 
+            // DC
+            // 
+            this.DC.AutoSize = true;
+            this.DC.Location = new System.Drawing.Point(132, 133);
+            this.DC.Name = "DC";
+            this.DC.Size = new System.Drawing.Size(41, 17);
+            this.DC.TabIndex = 13;
+            this.DC.Text = "DC";
+            this.DC.UseVisualStyleBackColor = true;
+            // 
+            // Exploding
+            // 
+            this.Exploding.AutoSize = true;
+            this.Exploding.Location = new System.Drawing.Point(252, 135);
+            this.Exploding.Name = "Exploding";
+            this.Exploding.Size = new System.Drawing.Size(97, 17);
+            this.Exploding.TabIndex = 14;
+            this.Exploding.Text = "Exlpoding Dice";
+            this.Exploding.UseVisualStyleBackColor = true;
+            // 
+            // Sum
+            // 
+            this.Sum.AutoSize = true;
+            this.Sum.Location = new System.Drawing.Point(28, 135);
+            this.Sum.Name = "Sum";
+            this.Sum.Size = new System.Drawing.Size(47, 17);
+            this.Sum.TabIndex = 15;
+            this.Sum.Text = "Sum";
+            this.Sum.UseVisualStyleBackColor = true;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(360, 450);
-            this.Controls.Add(this.Number);
-            this.Controls.Add(this.DCValue);
+            this.Controls.Add(this.Sum);
             this.Controls.Add(this.Exploding);
             this.Controls.Add(this.DC);
-            this.Controls.Add(this.Sum);
+            this.Controls.Add(this.Number);
+            this.Controls.Add(this.DCValue);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.ResultList);
             this.Controls.Add(this.Roll);
@@ -186,11 +183,11 @@
         private System.Windows.Forms.Button Roll;
         private System.Windows.Forms.ListBox ResultList;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RadioButton Sum;
-        private System.Windows.Forms.RadioButton DC;
-        private System.Windows.Forms.RadioButton Exploding;
         private System.Windows.Forms.TextBox DCValue;
         private System.Windows.Forms.MaskedTextBox Number;
+        private System.Windows.Forms.CheckBox DC;
+        private System.Windows.Forms.CheckBox Exploding;
+        private System.Windows.Forms.CheckBox Sum;
     }
 }
 
