@@ -79,7 +79,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(32, 33);
             this.label2.TabIndex = 4;
-            this.label2.Text = "+";
+            this.label2.Text = "±";
             // 
             // Roll
             // 
